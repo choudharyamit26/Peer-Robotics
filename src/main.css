@@ -1,0 +1,86 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.app {
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+.whole-app {
+  border: 3px solid #333;
+  border-radius: 25px;
+}
+
+.header {
+  text-align: center;
+  padding: 20px;
+}
+
+h2 {
+  color: rgb(6, 112, 250);
+  font-size: 100;
+}
+
+input {
+  padding: 10px;
+  margin: 20px;
+  border-radius: 50px;
+  border: 3px solid #333;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+button {
+  color: #fff;
+  background-color: rgb(6, 112, 250);
+  border: none;
+  outline: none;
+  margin: 10px auto;
+  padding: 10px 35px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.card {
+  margin: 0px 40px;
+  margin-top: -30px;
+}
+
+h4 {
+  margin: 14px 20px;
+}
+
+.card-field {
+  border: 3px solid #333;
+  border-radius: 25px;
+  display: flex;
+  margin: 15px auto;
+  justify-content: space-between;
+}
+
+.flight-chart {
+  text-align: left;
+  padding: 0 15px;
+}
+
+.flight-sno {
+  color: rgb(143, 142, 142);
+}
+
+.flight-info {
+  color: #333;
+}
+.enabled{
+  color: #fff;
+  background-color: rgb(6, 112, 250);
+}
+
+.disabled{
+  background-color: rgb(85, 82, 82);
+  cursor: not-allowed;
+}
